@@ -274,3 +274,12 @@ $ git push -u origin master
 把当前分支master推送到远程
 
 由于远程库是空的，我们第一次推送master分支是，加上-u参数，git不但会把本地的master分支内容推送到远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后会的推送或者拉取是就可以简化命令
+
+
+
+#### 克隆
+
+```bash
+$ git clone https://github.com/Facico/Linux-skill
+```
+
